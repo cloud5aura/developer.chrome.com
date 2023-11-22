@@ -2,46 +2,45 @@
 layout: 'layouts/doc-post.njk'
 title: 'Extensions 101'
 seoTitle: 'Chrome Extensions 101'
-subhead: 'Explore basic concepts of Chrome extension development.'
-description: 'Explore basic concepts of Chrome extension development.'
+subhead: 'Explore basic concepts of Chrome Extension development.'
+description: 'Explore basic concepts of Chrome Extension development.'
 date: 2022-10-04
 updated: 2023-09-08
 ---
 
-This page describes what an extension is and provides a brief introduction to Chrome extension development. It also includes links to [beginner tutorials][section-tutorials].
+This page describes what Extensions are and provides an introduction to Chrome Extension development. It also includes links to [beginner tutorials][section-tutorials].
 
 ## What are extensions? {: #overview }
 
-Chrome extensions enhance the browsing experience by adding features and functionality to the Chrome
-browser, providing things like:
+Extensions let you enhance and customise your Chrome experience:
 
-- Productivity tools.
-- Web page content enrichment.
-- Information aggregation.
+- Add tools and automations that save you time
+- Enhance webpages with a richer more colourful experience
+- Access easy analytics and browser diagnostics
 
-These are just a few examples of the many things that extensions can do. Visit the [Chrome Web
-Store][chrome-web-store] to see thousands of examples of published extensions.
+These are just a few examples of the many things that Extensions can do. Visit the [Chrome Web
+Store][chrome-web-store] to see what's available. 
 
 ## Web technologies {: #web-tech }
 
-Extensions are written with the same web technologies used to create web applications:
+Extensions are written with the same technology used to create web applications:
 
 - [HTML][web-dev-html] is used as a content markup language.
 - [CSS][web-dev-css] is used for styling.
 - [JavaScript][mdn-js] is used for scripting and logic.
-- [Web platform APIs][web-apis] let you use virtually any feature available to a standard web page.
+- [Web platform APIs][web-apis] let you use almost any feature available to a standard web page.
 
 Before moving forward, we recommend that you become familiar with these technologies.
 
 ## Chrome extension APIs {: #chrome-apis }
 
 Extensions can use all the [JavaScript APIs](https://developer.mozilla.org/docs/Web/API) that the
-browser provides. What makes extensions more powerful than a web app is their access to [Chrome
+browser provides. What makes Extensions more powerful than web apps is their access to [Chrome
 APIs][doc-apis]. The following are just a few examples of what extensions can do:
 
-- Change the functionality or behavior of a website.
-- Allow users to collect and organize information across websites.
-- Add features to Chrome DevTools.
+- Change the functionality or behavior of a website
+- Allow users to collect and organize information across websites
+- Add features to Chrome DevTools
 
 See [Extension development overview][doc-dev-overview] for a complete list of API capabilities.
 
